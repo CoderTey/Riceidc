@@ -1,1 +1,5 @@
-This is Repository for issue if i mb will reinstall arch later it includes wofi  hypr nvim and much more i hope you enjoy
+# Riceidc
+
+This is a repository for my setup in case I reinstall Arch later.  
+It includes Wofi, Hyprland, Neovim, and much more.  
+I hope you enjoy it!
