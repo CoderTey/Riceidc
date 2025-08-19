@@ -1,0 +1,80 @@
+home.packages = with pkgs; [
+  # Шрифты
+  noto-fonts
+  noto-fonts-extra
+  noto-fonts-cjk-sans
+  noto-fonts-cjk-serif
+  noto-fonts-color-emoji
+  (nerdfonts.override {
+    fonts = [
+      "FiraCode"
+      "JetBrainsMono"
+      "CascadiaCode"
+      "CodeNewRoman"
+    ];
+  })
+  maple-mono-NF
+  nerd-fonts.jetbrains-mono
+
+  # Файловый менеджер
+  xfce.thunar
+
+  # Терминалы и оболочки
+  kitty
+  alacritty
+  wezterm
+  fish
+  zsh
+  tmux
+
+  # Редакторы
+  emacs
+  nvim
+  vscode
+
+  # Git и утилиты
+  git
+  tig
+  gh
+  diff-so-fancy
+  make
+  gcc
+  clang
+
+  # Языки программирования
+  python3
+  nodejs
+  npm
+  rustc
+  cargo
+
+  # Системные утилиты
+  htop
+  ncdu
+  ranger
+  lf
+  fzf
+  ripgrep
+  bat
+  wget
+  curl
+
+  # Wayland и Sway
+  sway
+  waybar
+  swaylock
+  swayidle
+  grim
+  slurp
+  wl-clipboard
+
+  # Браузеры
+  firefox
+  firefox-developer-edition
+  chromium
+
+  # X utilities (если будут использовать X-программы)
+  xorg.xrandr
+  xorg.xsetroot
+];
+
